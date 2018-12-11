@@ -1,0 +1,27 @@
+{
+    "permaApp": {
+        "taskingCapability": {
+            "home": {
+                "title": "Tasking Capabilities",
+                "createLabel": "Create a new Tasking Capability",
+                "createOrEditLabel": "Create or edit a Tasking Capability",
+                "search": "Search for Tasking Capability"
+            },
+            "created": "A new Tasking Capability is created with identifier {{ param }}",
+            "updated": "A Tasking Capability is updated with identifier {{ param }}",
+            "deleted": "A Tasking Capability is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Tasking Capability {{ id }}?"
+            },
+            "detail": {
+                "title": "Tasking Capability"
+            },
+            "name": "Name",
+            "description": "Description",
+            "taskingParameters": "Tasking Parameters",
+            "properties": "Properties",
+            "actor": "Actor",
+            "multiTask": "Multi Task"
+        }
+    }
+}

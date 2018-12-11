@@ -1,0 +1,37 @@
+{
+    "name": "Actor",
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "description",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-one",
+            "relationshipName": "location",
+            "otherEntityName": "location",
+            "ownerSide": false,
+            "otherEntityRelationshipName": "actor"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "taskingCapability",
+            "otherEntityName": "taskingCapability",
+            "otherEntityRelationshipName": "actor"
+        }
+    ],
+    "changelogDate": "20181211194911",
+    "entityTableName": "actor",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

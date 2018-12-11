@@ -1,0 +1,44 @@
+{
+    "name": "TaskingCapability",
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "description",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "taskingParameters",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "properties",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "actor",
+            "otherEntityName": "actor",
+            "otherEntityField": "id"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "multiTask",
+            "otherEntityName": "multiTask",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20181211194912",
+    "entityTableName": "tasking_capability",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

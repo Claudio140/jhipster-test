@@ -1,0 +1,22 @@
+{
+    "permaApp": {
+        "taskingParameter": {
+            "home": {
+                "title": "Tasking Parameters",
+                "createLabel": "Tasking Parameter erstellen",
+                "createOrEditLabel": "Tasking Parameter erstellen oder bearbeiten",
+                "search": "Suche nach Tasking Parameter"
+            },
+            "created": "Tasking Parameter erstellt mit ID {{ param }}",
+            "updated": "Tasking Parameter aktualisiert mit ID {{ param }}",
+            "deleted": "Tasking Parameter gelöscht mit ID {{ param }}",
+            "delete": {
+                "question": "Soll Tasking Parameter {{ id }} wirklich dauerhaft gelöscht werden?"
+            },
+            "detail": {
+                "title": "Tasking Parameter"
+            },
+            "name": "Name"
+        }
+    }
+}

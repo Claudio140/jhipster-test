@@ -1,0 +1,23 @@
+{
+    "permaApp": {
+        "taskExecution": {
+            "home": {
+                "title": "Task Executions",
+                "createLabel": "Task Execution erstellen",
+                "createOrEditLabel": "Task Execution erstellen oder bearbeiten",
+                "search": "Suche nach Task Execution"
+            },
+            "created": "Task Execution erstellt mit ID {{ param }}",
+            "updated": "Task Execution aktualisiert mit ID {{ param }}",
+            "deleted": "Task Execution gelöscht mit ID {{ param }}",
+            "delete": {
+                "question": "Soll Task Execution {{ id }} wirklich dauerhaft gelöscht werden?"
+            },
+            "detail": {
+                "title": "Task Execution"
+            },
+            "timestamp": "Timestamp",
+            "multiTask": "Multi Task"
+        }
+    }
+}

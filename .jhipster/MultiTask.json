@@ -1,0 +1,36 @@
+{
+    "name": "MultiTask",
+    "fields": [
+        {
+            "fieldName": "creationTime",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "taskingParameter",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "taskingCapability",
+            "otherEntityName": "taskingCapability",
+            "otherEntityRelationshipName": "multiTask"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "taskExecution",
+            "otherEntityName": "taskExecution",
+            "otherEntityRelationshipName": "multiTask"
+        }
+    ],
+    "changelogDate": "20181211194915",
+    "entityTableName": "multi_task",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

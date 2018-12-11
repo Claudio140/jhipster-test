@@ -1,0 +1,51 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="taskingCapability">
+            <h2><span jhiTranslate="permaApp.taskingCapability.detail.title">Tasking Capability</span> {{taskingCapability.id}}</h2>
+            <hr>
+            <jhi-alert-error></jhi-alert-error>
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="permaApp.taskingCapability.name">Name</span></dt>
+                <dd>
+                    <span>{{taskingCapability.name}}</span>
+                </dd>
+                <dt><span jhiTranslate="permaApp.taskingCapability.description">Description</span></dt>
+                <dd>
+                    <span>{{taskingCapability.description}}</span>
+                </dd>
+                <dt><span jhiTranslate="permaApp.taskingCapability.taskingParameters">Tasking Parameters</span></dt>
+                <dd>
+                    <span>{{taskingCapability.taskingParameters}}</span>
+                </dd>
+                <dt><span jhiTranslate="permaApp.taskingCapability.properties">Properties</span></dt>
+                <dd>
+                    <span>{{taskingCapability.properties}}</span>
+                </dd>
+                <dt><span jhiTranslate="permaApp.taskingCapability.actor">Actor</span></dt>
+                <dd>
+                    <div *ngIf="taskingCapability.actor">
+                        <a [routerLink]="['/actor', taskingCapability.actor?.id, 'view']">{{taskingCapability.actor?.id}}</a>
+                    </div>
+                </dd>
+                <dt><span jhiTranslate="permaApp.taskingCapability.multiTask">Multi Task</span></dt>
+                <dd>
+                    <div *ngIf="taskingCapability.multiTask">
+                        <a [routerLink]="['/multi-task', taskingCapability.multiTask?.id, 'view']">{{taskingCapability.multiTask?.id}}</a>
+                    </div>
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon [icon]="'arrow-left'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/tasking-capability', taskingCapability.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon [icon]="'pencil-alt'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,25 @@
+{
+    "permaApp": {
+        "multiTask": {
+            "home": {
+                "title": "Multi Tasks",
+                "createLabel": "Create a new Multi Task",
+                "createOrEditLabel": "Create or edit a Multi Task",
+                "search": "Search for Multi Task"
+            },
+            "created": "A new Multi Task is created with identifier {{ param }}",
+            "updated": "A Multi Task is updated with identifier {{ param }}",
+            "deleted": "A Multi Task is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Multi Task {{ id }}?"
+            },
+            "detail": {
+                "title": "Multi Task"
+            },
+            "creationTime": "Creation Time",
+            "taskingParameter": "Tasking Parameter",
+            "taskingCapability": "Tasking Capability",
+            "taskExecution": "Task Execution"
+        }
+    }
+}

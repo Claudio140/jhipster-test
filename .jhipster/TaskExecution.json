@@ -1,0 +1,26 @@
+{
+    "name": "TaskExecution",
+    "fields": [
+        {
+            "fieldName": "timestamp",
+            "fieldType": "Instant"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "multiTask",
+            "otherEntityName": "multiTask",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20181211194916",
+    "entityTableName": "task_execution",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

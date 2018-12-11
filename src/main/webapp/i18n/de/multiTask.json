@@ -1,0 +1,25 @@
+{
+    "permaApp": {
+        "multiTask": {
+            "home": {
+                "title": "Multi Tasks",
+                "createLabel": "Multi Task erstellen",
+                "createOrEditLabel": "Multi Task erstellen oder bearbeiten",
+                "search": "Suche nach Multi Task"
+            },
+            "created": "Multi Task erstellt mit ID {{ param }}",
+            "updated": "Multi Task aktualisiert mit ID {{ param }}",
+            "deleted": "Multi Task gelöscht mit ID {{ param }}",
+            "delete": {
+                "question": "Soll Multi Task {{ id }} wirklich dauerhaft gelöscht werden?"
+            },
+            "detail": {
+                "title": "Multi Task"
+            },
+            "creationTime": "Creation Time",
+            "taskingParameter": "Tasking Parameter",
+            "taskingCapability": "Tasking Capability",
+            "taskExecution": "Task Execution"
+        }
+    }
+}

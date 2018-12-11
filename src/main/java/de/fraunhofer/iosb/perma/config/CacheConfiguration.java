@@ -38,6 +38,15 @@ public class CacheConfiguration {
             cm.createCache(de.fraunhofer.iosb.perma.domain.User.class.getName(), jcacheConfiguration);
             cm.createCache(de.fraunhofer.iosb.perma.domain.Authority.class.getName(), jcacheConfiguration);
             cm.createCache(de.fraunhofer.iosb.perma.domain.User.class.getName() + ".authorities", jcacheConfiguration);
+            cm.createCache(de.fraunhofer.iosb.perma.domain.Actor.class.getName(), jcacheConfiguration);
+            cm.createCache(de.fraunhofer.iosb.perma.domain.Actor.class.getName() + ".taskingCapabilities", jcacheConfiguration);
+            cm.createCache(de.fraunhofer.iosb.perma.domain.TaskingCapability.class.getName(), jcacheConfiguration);
+            cm.createCache(de.fraunhofer.iosb.perma.domain.TaskingParameter.class.getName(), jcacheConfiguration);
+            cm.createCache(de.fraunhofer.iosb.perma.domain.Location.class.getName(), jcacheConfiguration);
+            cm.createCache(de.fraunhofer.iosb.perma.domain.MultiTask.class.getName(), jcacheConfiguration);
+            cm.createCache(de.fraunhofer.iosb.perma.domain.MultiTask.class.getName() + ".taskingCapabilities", jcacheConfiguration);
+            cm.createCache(de.fraunhofer.iosb.perma.domain.MultiTask.class.getName() + ".taskExecutions", jcacheConfiguration);
+            cm.createCache(de.fraunhofer.iosb.perma.domain.TaskExecution.class.getName(), jcacheConfiguration);
             // jhipster-needle-ehcache-add-entry
         };
     }
