@@ -1,0 +1,40 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "de.fraunhofer.iosb.perma",
+      "nativeLanguage": "de"
+    },
+    "jhipsterVersion": "5.6.1",
+    "applicationType": "monolith",
+    "baseName": "PERMA",
+    "packageName": "de.fraunhofer.iosb.perma",
+    "packageFolder": "de/fraunhofer/iosb/perma",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "gradle",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "ZGIwZDFhMGUzZjNmYmMxMTI2YmU1ZWQ2OWNiMDllMjFmYmM4ZTgwZjU3YmZjZjM0NzRhNzA2OGZhYTdiNzI5MTJiNTY4N2JjZjA4YjljMWNhZTNmODY4OGIwZmJhYTEzZWQ0ZjYwMDFmYWM1YzAxM2QyMzE0Y2ZhYmRhNmMwODM=",
+    "clientFramework": "angularX",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "protractor"
+    ],
+    "jhiPrefix": "jhi",
+    "enableTranslation": true,
+    "nativeLanguage": "de",
+    "languages": [
+      "de",
+      "en"
+    ]
+  }
+}
