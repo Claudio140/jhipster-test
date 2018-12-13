@@ -6,6 +6,7 @@ import { PermaTaskingParameterModule } from './tasking-parameter/tasking-paramet
 import { PermaLocationModule } from './location/location.module';
 import { PermaMultiTaskModule } from './multi-task/multi-task.module';
 import { PermaTaskExecutionModule } from './task-execution/task-execution.module';
+import { PermaTaskModule } from './task/task.module';
 /* jhipster-needle-add-entity-module-import - JHipster will add entity modules imports here */
 
 @NgModule({
@@ -17,6 +18,7 @@ import { PermaTaskExecutionModule } from './task-execution/task-execution.module
         PermaLocationModule,
         PermaMultiTaskModule,
         PermaTaskExecutionModule,
+        PermaTaskModule,
         /* jhipster-needle-add-entity-module - JHipster will add entity modules here */
     ],
     declarations: [],

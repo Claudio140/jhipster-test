@@ -47,6 +47,7 @@ public class CacheConfiguration {
             cm.createCache(de.fraunhofer.iosb.perma.domain.MultiTask.class.getName() + ".taskingCapabilities", jcacheConfiguration);
             cm.createCache(de.fraunhofer.iosb.perma.domain.MultiTask.class.getName() + ".taskExecutions", jcacheConfiguration);
             cm.createCache(de.fraunhofer.iosb.perma.domain.TaskExecution.class.getName(), jcacheConfiguration);
+            cm.createCache(de.fraunhofer.iosb.perma.domain.Task.class.getName(), jcacheConfiguration);
             // jhipster-needle-ehcache-add-entry
         };
     }

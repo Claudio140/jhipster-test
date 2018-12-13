@@ -13,6 +13,7 @@
                 "location": "Location",
                 "multiTask": "Multi Task",
                 "taskExecution": "Task Execution",
+                "task": "Task",
                 "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
             },
             "account": {

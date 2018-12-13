@@ -11,6 +11,7 @@
     <include file="config/liquibase/changelog/20181211194914_added_entity_Location.xml" relativeToChangelogFile="false"/>
     <include file="config/liquibase/changelog/20181211194915_added_entity_MultiTask.xml" relativeToChangelogFile="false"/>
     <include file="config/liquibase/changelog/20181211194916_added_entity_TaskExecution.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20181213152554_added_entity_Task.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-changelog - JHipster will add liquibase changelogs here -->
     <include file="config/liquibase/changelog/20181211194912_added_entity_constraints_TaskingCapability.xml" relativeToChangelogFile="false"/>
     <include file="config/liquibase/changelog/20181211194914_added_entity_constraints_Location.xml" relativeToChangelogFile="false"/>

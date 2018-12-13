@@ -1,0 +1,30 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "repetitions",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "creationTime",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "executionTime",
+            "fieldType": "Instant"
+        }
+    ],
+    "changelogDate": "20181213152554",
+    "dto": "no",
+    "searchEngine": "elasticsearch",
+    "service": "no",
+    "entityTableName": "task",
+    "jpaMetamodelFiltering": false,
+    "pagination": "pagination"
+}

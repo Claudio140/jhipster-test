@@ -1,0 +1,39 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="task">
+            <h2><span jhiTranslate="permaApp.task.detail.title">Task</span> {{task.id}}</h2>
+            <hr>
+            <jhi-alert-error></jhi-alert-error>
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="permaApp.task.name">Name</span></dt>
+                <dd>
+                    <span>{{task.name}}</span>
+                </dd>
+                <dt><span jhiTranslate="permaApp.task.repetitions">Repetitions</span></dt>
+                <dd>
+                    <span>{{task.repetitions}}</span>
+                </dd>
+                <dt><span jhiTranslate="permaApp.task.creationTime">Creation Time</span></dt>
+                <dd>
+                    <span>{{task.creationTime}}</span>
+                </dd>
+                <dt><span jhiTranslate="permaApp.task.executionTime">Execution Time</span></dt>
+                <dd>
+                    <span>{{task.executionTime}}</span>
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon [icon]="'arrow-left'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/task', task.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon [icon]="'pencil-alt'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+            </button>
+        </div>
+    </div>
+</div>
